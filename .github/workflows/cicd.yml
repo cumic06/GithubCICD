@@ -1,10 +1,10 @@
 name: Slack Notification Example
 
 on:
-  pull_request: 
-    types:
-      - opened
-      - edited
+  # pull_request: 
+  #   types:
+  #     - opened
+  #     - edited
   push:
     branches:
       - main
