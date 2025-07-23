@@ -18,7 +18,7 @@ on:
           - test
 
 env:
-  SLACK_CHANNEL_ID: Your Slack Channel ID
+  SLACK_CHANNEL_ID: C097R4ZBW3S
   SLACK_ENV_NAME: TEST
   SLACK_REPO_NAME: devto-code-snippets
   PIPELINE_URL: 'https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'
